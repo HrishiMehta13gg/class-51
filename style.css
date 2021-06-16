@@ -1,0 +1,44 @@
+body{
+    background-color: darkturquoise;
+}
+body{
+    border:solid #fffd9ab0;
+border-width: 10px;
+}
+img{
+    border:solid #DDD32C;
+}
+.header{
+    background-color: #abc232;
+}
+.footer{
+    background-color: #abc232;
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+justify-content: space-evenly;
+}
+.footer{display:flex;
+    justify-content: flex-end;
+}
+p,h2{
+    text-align: center;
+    color:rgb(87, 253, 203)
+}
+h1{
+    color: #FFFFFF
+}
+.item :hover img{
+    opacity:0.01
+}
+.item :hover p{
+    opacity: 0.01
+}
+a:link{
+    color :rgb(29, 29, 143)
+   
+}
+a:visited{
+    color:#972020
+}
